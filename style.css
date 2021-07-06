@@ -1,0 +1,128 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 40px;
+    color: #575757;
+}
+p, small{
+    color: #575757;
+}
+
+
+.top-menu li {
+    display: inline-block;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+.top-menu li a {
+    text-decoration: none;
+    color: #575757;
+    
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.blue-light{
+    color: lightskyblue;
+}
+
+.half-area{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-area img{
+    width: 80%;
+}
+#left-text, #right-text {
+    margin-top: 100px;
+    
+}
+
+#left-text p, #right-text p{
+    margin-bottom: 50px;
+}
+
+.middle-banner{
+    background-image: url(images/middle-banner.jpg);
+}
+
+.linked {
+    text-decoration: none;
+    background-image: linear-gradient(blue, #4343a1);
+ 
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.recipies{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.food {
+    width: 22%;
+    height: 550px;
+    /* margin: 21px; */
+    padding-left: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+.first-recipie{
+    margin-left: 180px;
+}
+.second-recipie{
+    margin-left: 50px;
+}
+.third-recipie{
+    margin-left: 50px;
+}
+.food img{
+    width: 80%;
+    margin: 20px;
+    height: 50%;
+    border-radius: 20px;
+}
+.customer-review {
+    margin-left: 176px;
+    padding: 25px;
+    border: solid lightgray;
+    border-radius: 10px;
+    
+}
+.review{
+    text-align: center;
+    background-image: url(images/middle-banner.jpg);
+    background-position-x: center;
+    
+}
+
+.achive {
+    width: 90%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+.achive-title{
+    text-align: center;
+}
+
+.followers {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+footer{
+    height: 200px;
+    text-align: center;
+    background-color: #0B0D17;
+}
